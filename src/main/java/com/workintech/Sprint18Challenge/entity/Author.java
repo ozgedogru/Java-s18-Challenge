@@ -13,6 +13,8 @@ import java.util.List;
 @AllArgsConstructor
 @Data
 @Entity
+@Table(name="author", schema = "workintech")
+
 public class Author {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

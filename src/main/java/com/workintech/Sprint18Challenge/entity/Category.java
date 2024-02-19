@@ -10,6 +10,7 @@ import java.util.List;
 @AllArgsConstructor
 @Data
 @Entity
+@Table(name="category", schema = "workintech")
 public class Category {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
